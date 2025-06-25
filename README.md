@@ -25,4 +25,5 @@ In particular:
 
 3 - PCA distance correlation: computes correlation between pairwise cell distances in PCA space; higher means better global geometry retention.
 
-
+### How to run the script:
+python persist_script_unsupervised_new_data_Baptiste.py /path/to/raw/data /path/to/analysis/output
