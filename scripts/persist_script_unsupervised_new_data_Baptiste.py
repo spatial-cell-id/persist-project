@@ -19,6 +19,7 @@ sc.settings.verbosity = 0
 data_folder=sys.argv[1]
 saving_folder=sys.argv[2]
 
+
 adata_11_1 = sc.read_10x_mtx('%s/filtered_feature_bc_matrix_111' %data_folder, var_names = 'gene_symbols', cache = True)
 adata_6_3 = sc.read_10x_mtx('%s/filtered_feature_bc_matrix_63' %data_folder, var_names = 'gene_symbols', cache = True)
 adata_8_1 = sc.read_10x_mtx('%s/filtered_feature_bc_matrix_81' %data_folder, var_names = 'gene_symbols', cache = True)
